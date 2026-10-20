@@ -1,0 +1,6 @@
+url: https://github.com/Ma354/dsh-limit-break
+name: Ma354/dsh-limit-break
+category: memory
+description:
+  en: 'Durable cross-session memory plus a fetch ladder that survives hostname-keyed blocking. Four tools: memory_recall, memory_save, memory_stats over a plain-JSON fact store at $DSH_HOME/memory/facts.json, and resilient_fetch which walks fetch -> IPv6 -> IPv4 -> same-service alias host. No daemon, no dependency, no network at import time.'
+  zh: '跨会话持久记忆，加一条绕开主机名级封锁的取数阶梯。四个工具：memory_recall / memory_save / memory_stats 读写 $DSH_HOME/memory/facts.json，resilient_fetch 逐级尝试 fetch → IPv6 → IPv4 → 同服务别名主机。无后台进程、无依赖、导入期不联网。'
